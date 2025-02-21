@@ -1,0 +1,10 @@
+# ninja log v6
+2856	3608	7616027689120646	Tarea_pruebas.exe	e9aa0d89e02ed3ed
+402	2854	7616027664575758	CMakeFiles/Tarea_pruebas.dir/main.cpp.obj	2f6109e2a60e1abf
+128	2009	7617590863058584	build.ninja	281178c4bf7d24
+45	1414	7617590864915126	CMakeFiles/Tarea_pruebas.dir/main.cpp.obj	2f6109e2a60e1abf
+1415	2085	7617590878615770	Tarea_pruebas.exe	e9aa0d89e02ed3ed
+28	1432	7617591556653363	CMakeFiles/Tarea_pruebas.dir/main.cpp.obj	2f6109e2a60e1abf
+1434	1881	7617591570723527	Tarea_pruebas.exe	e9aa0d89e02ed3ed
+36	636	7617665807445896	CMakeFiles/Tarea_pruebas.dir/main.cpp.obj	2f6109e2a60e1abf
+636	885	7617665813452772	Tarea_pruebas.exe	e9aa0d89e02ed3ed
