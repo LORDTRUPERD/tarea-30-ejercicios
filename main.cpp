@@ -72,7 +72,6 @@ void mayorDeTres() {
     else if (b >= a && b >= c) cout << "El mayor es: " << b << endl;
     else cout << "El mayor es: " << c << endl;
 }
-
 void esBisiesto() {
     int anio;
     cout << "Ingrese un año: ";
@@ -84,36 +83,6 @@ void esBisiesto() {
         cout << "El año " << anio << " no es bisiesto." << endl;
     }
 }
-
-void vocalOConsonante() {
-    char letra;
-    cout << "Ingrese una letra: ";
-    cin >> letra;
-    letra = tolower(letra);
-
-    if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
-        cout << "La letra " << letra << " es una vocal." << endl;
-    } else if ((letra >= 'a' && letra <= 'z')) {
-        cout << "La letra " << letra << " es una consonante." << endl;
-    } else {
-        cout << "No es una letra válida." << endl;
-    }
-}
-void esPrimo() {
-    int num, i, esPrimo = 1;
-    cout << "Ingrese un número: ";
-    cin >> num;
-
-    if (num <= 1) {
-        esPrimo = 0;
-    } else {
-        for (i = 2; i * i <= num; i++) {
-            if (num % i == 0) {
-                esPrimo = 0;
-                break;
-            }
-        }
-    }
 
 void validarAnoNacimiento() {
     int anio;
