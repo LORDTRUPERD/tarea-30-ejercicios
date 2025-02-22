@@ -84,6 +84,29 @@ void esBisiesto() {
     }
 }
 
+void esPrimo() {
+    int num, i, esPrimo = 1;
+    cout << "Ingrese un número: ";
+    cin >> num;
+
+    if (num <= 1) {
+        esPrimo = 0;
+    } else {
+        for (i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                esPrimo = 0;
+                break;
+            }
+        }
+    }
+
+    if (esPrimo)
+        cout << num << " es un número primo." << endl;
+    else
+        cout << num << " no es un número primo." << endl;
+}
+
+
 void validarAnoNacimiento() {
     int anio;
     cout << "Ingrese un año de nacimiento: ";
